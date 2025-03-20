@@ -1,0 +1,116 @@
+*{
+    text-decoration: none;
+    padding: 5px;
+
+}
+body{
+background-color: rgba(0, 0, 255, 0.594);
+background-position: fixed;
+}
+.nav-0 ul li{
+    list-style: none;
+}
+.nav-0 ul li a{
+    color: white;
+}
+.nav-1 ul li{
+    list-style: none;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    font-size: 18px;
+    
+}
+.nav-1 ul li a{
+    color: white;
+}
+.nav-1{
+    padding-top: 25px ;
+    color: white;
+}
+li:hover{
+    background-color: rgba(0, 0, 255, 0.366);
+    border-radius: 10px;
+}
+.nav{
+    display: flex;
+}
+.nav-2 ul {
+    list-style: none;
+    display: inline-block;
+    padding-top: 15px ;
+    padding: ;
+
+}
+button{
+    border-radius: 10px;
+    background-color: rgba(52, 52, 213, 0.532);
+
+    border-color: rgba(0, 0, 255, 0.532);
+    
+}
+button a {
+    line-height: 1.7;
+    padding: 10px;
+    color: white;
+}
+.parant{
+    display: flex;
+    justify-content: space-between;
+}
+/*content*/
+.content{
+    height: 30vh;
+}
+h1{
+    font-size: 50px;
+    font-weight: 400px;
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+}
+p{
+    font-size: 25px;
+    font-weight: 400px;
+    color: white;
+    text-align: center;
+}
+.card{
+    height: 500px;
+    width: 300px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px  rgba(52, 52, 213, 0.532);
+    padding: 15px;
+    margin: 30px;
+
+}
+.card li{
+    list-style: none;
+}
+
+img{
+    padding-top: 15px;
+}
+h2{
+    font-size: 40px;
+}
+.description
+{
+    font-size:25px;
+    font-weight: 400;
+    text-align: justify;
+    justify-content: space-between;
+    color:  rgba(9, 9, 9, 0.724);
+}
+.language-list{
+    display: flex;
+    padding: 20px;
+    margin-right: 20px;
+}
+.footer{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
